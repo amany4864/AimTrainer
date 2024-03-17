@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="feature-bar">
+            <button class="Start-btn">Start</button>
+            <div class="timer"></div>
+            <button class="Stop-btn" onclick="cancelbtn()">Reset</button>
+            
+            <div class="time-options" style="display: none;">
+                <button class="30sec" onclick="thirtysec()">30 sec</button>
+                <button class="60sec" onclick="sixtysec()">60 sec</button>
+                <button class="120sec" onclick="onetwentysec()">120 sec</button>
+            </div>
+        </div>
+                
+        <div class="container">
+            <button class="btn" onclick="poschange()" style="display: none;"></button>
+        </div>
+    </div>
+    
+<script src="script2.js"></script>    
+</body>
+</html>
